@@ -12,7 +12,7 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration process_explicitly_annotated="false" />
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
@@ -26,7 +26,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat:tomcat-servlet-api:7.0.21" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-servlet-api:8.5.14" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-orm:4.3.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-core:4.3.8.RELEASE" level="project" />
@@ -54,5 +54,11 @@
     <orderEntry type="library" name="Maven: com.mchange:mchange-commons-java:0.2.11" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.3.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:4.3.8.RELEASE" level="project" />
+    <orderEntry type="library" name="org.thymeleaf:thymeleaf:Release" level="project" />
+    <orderEntry type="library" name="org.thymeleaf.extras:thymeleaf-extras-springsecurity4:Release" level="project" />
+    <orderEntry type="library" name="org.thymeleaf:thymeleaf-spring4:Release" level="project" />
+    <orderEntry type="library" name="org.thymeleaf:thymeleaf:Release1" level="project" />
+    <orderEntry type="library" name="org.thymeleaf.extras:thymeleaf-extras-springsecurity4:Release1" level="project" />
+    <orderEntry type="library" name="org.thymeleaf:thymeleaf-spring4:Release1" level="project" />
   </component>
 </module>
