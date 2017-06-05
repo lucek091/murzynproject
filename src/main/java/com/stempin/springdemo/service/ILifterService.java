@@ -1,10 +1,10 @@
-package com.stempin.springdemo.dao;
+package com.stempin.springdemo.service;
 
 import com.stempin.springdemo.entity.Lifter;
 
 import java.util.List;
 
-public interface ILifterDAO {
+public interface ILifterService {
 
     List<Lifter> getLifters();
 
@@ -14,5 +14,5 @@ public interface ILifterDAO {
 
     void deleteLifter(int theId);
 
-    List<Lifter> searchCustomer(String theSearchName);
+    List<Lifter> searchLifter(String theSearchName);
 }
